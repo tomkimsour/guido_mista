@@ -1,0 +1,15 @@
+[package]
+name = "perception_rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rclrs = "*"
+std_msgs = "*"
+opencv = { version = "0.91.3", features = ["clang-runtime"] }
+anyhow = "*"
+
+[env]
+PKG_CONFIG_PATH = { value = "/usr/local/lib/x86_64-linux-gnu/pkgconfig:/usr/local/lib/pkgconfig:/usr/local/share/pkgconfig:/usr/lib/x86_64-linux-gnu/pkgconfig:/usr/lib/pkgconfig:/usr/share/pkgconfig" }
