@@ -1,0 +1,24 @@
+[submodule "src/ros2_rust"]
+	path = src/ros2_rust
+	url = https://github.com/ros2-rust/ros2_rust.git
+[submodule "src/task_manager"]
+	path = src/task_manager
+	url = https://github.com/Karelics/task_manager.git
+[submodule "src/ros2/unique_identifier_msgs"]
+	path = src/ros2/unique_identifier_msgs
+	url = https://github.com/ros2/unique_identifier_msgs.git
+[submodule "src/ros2/example_interfaces"]
+	path = src/ros2/example_interfaces
+	url = https://github.com/ros2/example_interfaces.git
+[submodule "src/ros2/test_interface_files"]
+	path = src/ros2/test_interface_files
+	url = https://github.com/ros2/test_interface_files.git
+[submodule "src/ros2/rosidl_defaults"]
+	path = src/ros2/rosidl_defaults
+	url = https://github.com/ros2/rosidl_defaults.git
+[submodule "src/ros2/rcl_interfaces"]
+	path = src/ros2/rcl_interfaces
+	url = https://github.com/ros2/rcl_interfaces.git
+[submodule "src/ros2/common_interfaces"]
+	path = src/ros2/common_interfaces
+	url = https://github.com/ros2/common_interfaces.git
